@@ -1,0 +1,20 @@
+.team {
+
+    .team-member {
+        margin: 50px;
+        width: 200px;
+        text-align: center;
+
+        &:not(:last-child) {
+            margin-right: 50px;
+        }
+
+        .title {
+            margin: 25px 0;
+        }
+    }
+
+    .profile {
+        border-radius: 50%;
+    }
+}

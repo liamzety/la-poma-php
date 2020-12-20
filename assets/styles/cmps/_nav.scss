@@ -1,0 +1,37 @@
+.nav {
+    margin-bottom: 100px;
+
+    ul {
+        width: fit-content;
+        margin: auto;
+        margin-top: -20px;
+        background-color: $mainWhite;
+
+    }
+
+    li {
+        padding: 10px;
+        color: #333;
+        font-weight: 700;
+        transition: .3s;
+
+        &:hover {
+            background: #d3d1d1;
+
+        }
+
+        &:not(:first-child) {
+            margin-left: 10px;
+        }
+
+        .line {
+            height: 50%;
+            background: #656565;
+            width: 1px;
+            position: absolute;
+            right: -5px;
+            top: 10px;
+        }
+
+    }
+}

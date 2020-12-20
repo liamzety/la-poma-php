@@ -1,0 +1,19 @@
+// BASICS
+@import './basics/variables';
+@import './basics/helpers';
+@import './basics/base';
+@import './basics/typography';
+@import './basics/animations';
+
+// COMPONENTS
+@import './cmps/banner';
+@import './cmps/nav';
+@import './cmps/header';
+@import './cmps/details';
+@import './cmps/footer';
+
+//VIEWS
+@import './views/team';
+@import './views/dish';
+@import './views/contact';
+@import './views/menu';
